@@ -4,6 +4,14 @@ vue项目中使用jsBridge技术 和原生APP通信
 android [jsBridge库](https://github.com/lzyzsd/JsBridge)
 ios [jsBridge库](https://github.com/marcuswestin/WebViewJavascriptBridge)
 
+###在vue中使用插件
+```
+  import Vue from 'vue'
+  import JsBridge from 'jsBridge-plugin'
+  
+  Vue.use(JsBridge);
+```
+
 ###在vue中使用
 ```
   import {setJsBridge} from 'jsBridge-plugin'  //引入插件
